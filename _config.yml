@@ -72,9 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: adoubi
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:Blueeye1015/Blueeye1015.github.io.git
+  branch: master
