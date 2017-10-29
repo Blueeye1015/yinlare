@@ -1,0 +1,24 @@
+# Header
+menu:
+  en:
+    HOME: /
+    BITS AND PIECES: /works
+    BIOGRAPHY: /biography
+    中文: /cn/
+  cn:
+    首页: /cn/
+    艺术挖掘: /cn_works
+    简介: /cn_biography
+    English: /
+
+# Title on top left of menu. Leave empty to use main blog title
+title: ART MONOLOGUE
+
+# URL of the Home page image
+index_cover: /img/homepage.png
+
+# set your own favicon
+favicon:
+
+# placeholder of article cover image
+article_cover_placeholder: http://www.artandplaytherapytraining.com.au/thumbnaillarge/ARTOFGRIEVING22.jpg

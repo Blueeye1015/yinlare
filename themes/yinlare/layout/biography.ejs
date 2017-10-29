@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html <% if(config.language) { %>lang="<%= config.language %>"<% } else { %>lang="en"<% }%>>
+
+<%- partial('_partial/head') %>
+
+<body>
+
+	<div class="container">
+		<%- partial('_partial/title') %>
+		<%- partial('_partial/menu') %>
+		<div class="bio-left">
+			<p class="name">Liying(Ying) Li</p>
+			<p class="city">Current location: New York City</p>
+			<div class="bio-img">
+				<img src="/img/biography.png" alt="Image">
+			</div>
+		</div>
+		<div class="bio-right">
+			<p class="bio-title">Biograhpy</p>
+			<p class="body">Ying is a former banking professional, a cat fancier and an art lover. She was born and raised in China, and spent a few years in the lovely country Canada. </p>
+			<p class="body">During a trip in Nepal in 2015, she decided to make a career change. The next year, she started studying art history and art business in New York with a focus on Modern and Contemporary Art.</p>
+			<p class="body">She loves Manet’s bold contours, Laurencin’s pastel subtlety, Matisse’s color improvisation, Hopper’s solitude, de Kooning’s wild brushstrokes, and the list goes on. The art journey is going on - currently she is exploring the art auction arena, Renaissance, and art finance.</p>
+		</div>
+	</div>
+
+</body>
+
+</html>

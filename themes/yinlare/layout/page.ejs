@@ -1,0 +1,10 @@
+<div class="container">
+	<%- partial('_partial/title') %>
+	<%- partial('_partial/menu') %>
+	<div class="article-container">
+		<p class="bold-title">Works</p>
+		<% site.posts.each(function(item){ %>
+			<%- partial('_partial/article-index', {item: item}) %>
+		<% }); %>
+	</div>
+</div>

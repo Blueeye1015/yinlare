@@ -1,0 +1,11 @@
+<%
+	var language = page.lang === 'cn' ? 'cn' : 'en';
+%>
+
+<ul class="homepage-menu">
+	<% for (var key in theme.menu[language]){ %>
+		<li>
+			<a href="<%- url_for(theme.menu[language][key])  %>"><%= key %></a>
+		</li>
+	<% } %>
+</ul>
