@@ -5,11 +5,10 @@
 
 <body>
 
-	<div class="container">
+	<div class="post container">
 		<%- partial('_partial/title') %>
 		<%- partial('_partial/menu') %>
 		<h2><%- page.title %></h2>
-		<img src="<%- page.cover ? page.cover : theme.article_cover_placeholder %>" alt="cover">
 		<p><%- page.content %></p>
 	</div>
 
