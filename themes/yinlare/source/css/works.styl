@@ -1,9 +1,15 @@
 .article-container
+	display: flex
 	max-width: 1000px
 	.bold-title
-		font-weight 999
+		display none
 	.article-preview
-		display inline-block
+		a
+			text-decoration none
+			&:visited
+				color #333
+		flex 1
+		// display inline-block
 		.article-cover
 			display block
 			width 309px
@@ -21,3 +27,6 @@
 		.article-title
 			font-size 13px
 			padding-left 4px
+			max-width 300px
+			word-wrap break-word
+			word-break normal
